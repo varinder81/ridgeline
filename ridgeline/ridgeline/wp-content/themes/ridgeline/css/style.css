@@ -1,0 +1,1854 @@
+/****************************\
+		Defaut css
+\****************************/
+
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Raleway', sans-serif;
+}
+a, a:focus, a:hover, input, input:focus, input:hover, button, button:focus, button:hover {
+	outline: none;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+ul, ol {
+	list-style: none;
+}
+/*div{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}*/
+
+/****************************\
+	custom css starts here
+\****************************/
+.headerDiv {
+	width: 100%;
+	float: left;
+}
+.topBar {
+	background: #142241 none repeat scroll 0 0;
+	float: left;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.socialIcons {
+	float: left;
+	width: 100%;
+	text-align: left;
+	width: inherit;
+	margin: 0px;
+}
+.socialIcons li {
+	float: left;
+	margin: 0;
+	padding: 5px;
+	position: relative;
+}
+.socialIcons li a {
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	opacity: 0.8;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.socialIcons li a:hover {
+	opacity: 1;
+	color: #92892d;
+}
+.contactUl {
+	float: right;
+	text-align: right;
+	margin: 0px;
+}
+.contactUl li {
+	float: left;
+	margin: 0;
+	padding: 8px 5px 0;
+	position: relative;
+}
+.contactUl li a {
+	float: left;
+	color: #fff;
+	opacity: 0.7;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.contactUl li a span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+.contactUl li a .fa {
+	float: left;
+	font-size: 18px;
+	padding: 2px 5px 0 0;
+	/*transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;*/
+}
+.contactUl li a:hover {
+	opacity: 1;
+	color: #92892d;
+}
+.navigationDiv {
+	width: 100%;
+	float: left;
+	padding: 50px 0 0;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+.navigationDiv .navbar {
+	background: transparent;
+	margin: 0px;
+	border: none;
+	min-height: 1px;
+}
+.navigationDiv .navbar-brand {
+	display: none;
+}
+.navigationDiv .navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+.navigationDiv .navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+.navigationDiv .navbar-nav li a {
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navigationDiv .navbar-default .navbar-nav > .active > a, .navigationDiv .navbar-default .navbar-nav > .active > a:focus, .navigationDiv .navbar-default .navbar-nav > .active > a:hover {
+	background-color: transparent;
+	color: #827d4b;
+}
+/****/
+.smaller .navigationDiv {
+	left: 0;
+	padding: 0;
+	position: fixed;
+	top: -100px;
+	z-index: 99;
+	transition: all 0s ease 0s !important;
+	-moz-transition: all 0s ease 0s !important;
+	-webkit-transition: all 0s ease 0s !important;
+	-o-transition: all 0s ease 0s !important;
+}
+.smaller .navigationDiv .navbar{
+	background: rgba(32, 49, 91, 0.9) none repeat scroll 0 0;
+	margin: 100px 0 0;
+	border-radius: 0px;
+	transition: all 0.5s ease 0s !important;
+	-moz-transition: all 0.5s ease 0s !important;
+	-webkit-transition: all 0.5s ease 0s !important;
+	-o-transition: all 0.5s ease 0s !important;
+}
+.smaller .navigationDiv .navbar-nav > li > a {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.smaller .logoImg > img {
+	width: 60px;
+}
+/*slider css*/
+.sliderDiv {
+	background-attachment: fixed;
+	background-position: center bottom !important;
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+  float: left;
+	padding: 200px 0 80px;
+	text-align: center;
+	width: 100%;
+}
+.sliderContent {
+	width: 100%;
+	float: left;
+}
+.sliderContent h6 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 25px;
+}
+.sliderContent h2 {
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.sliderContent h2 span {
+	width: 100%;
+	float: left;
+	color: #92892d;
+}
+.page-banner .sliderContent span, .contactPage .sliderContent span {
+	width: auto;
+	float: none;
+}
+.sliderContent p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	padding: 10px 0;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.sliderContent button {
+	font-family: 'Open Sans', sans-serif;
+	background: #f2e4a9;
+	font-size: 14px;
+	color: #322f11;
+	text-transform: uppercase;
+	border-radius: 0px;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin: 20px 0 0;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+/*solarEnterprise*/
+.solarEnterprise {
+	width: 100%;
+	float: left;
+	background: #ede9e2;
+	padding: 50px 0;
+}
+.solarEnterprise h2 {
+	width: 100%;
+	float: left;
+	color: #393838;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 130px 0 0;
+}
+.solarEnterprise h2 span {
+	color: #92892d;
+}
+.solarEnterprise h4 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #393838;
+	font-size: 18px;
+	font-weight: 600;
+}
+.solarEnterprise p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #8b8484;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 15px 0;
+	line-height: 25px;
+}
+.solarEnterprise button {
+	font-family: 'Open Sans', sans-serif;
+	background: #655543;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0px;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin: 20px 0 0;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+
+}
+/*weOffers*/
+.weOffers {
+	width: 100%;
+	float: left;
+	padding: 80px 0;
+}
+.weOffers h2 {
+	width: 100%;
+	float: left;
+	color: #393838;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.weOffers h2 span {
+	color: #92892d;
+}
+.weOffers h4 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #393838;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+.offerDetails {
+	width: 100%;
+	float: left;
+	padding: 80px 0 0;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+/*.offerDetails:hover{
+	opacity: 0.8;
+}*/
+.offerIonDiv {
+	border: 1px solid #8a8446;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	/*opacity: 0.5;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;*/
+}
+.offerIonDiv img {
+	width: 100%;
+}
+/*.offerDetails:hover .offerIonDiv{
+	opacity: 1;
+}*/
+
+.offerContentDiv {
+	width: 100%;
+	float: left;
+}
+.offerContentDiv h5 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #393838;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.offerContentDiv p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #878383;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 10px 0;
+	line-height: 25px;
+}
+.offerContentDiv a {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #8a8446;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 25px;
+	text-decoration: underline;
+	/*opacity: 0.6;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;*/
+}
+/*.offerDetails:hover .offerContentDiv a{
+	opacity: 1;
+}*/
+/*whyUSDiv*/
+
+.whyUSDiv {
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+	background-image: url(../images/choose-us-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.whyUSDiv h2 {
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 60px;
+}
+.whyUSDiv h2 span {
+	color: #92892d;
+}
+.whyUSDivImgSec {
+	width: 100%;
+	float: left;
+}
+.whyUSDivImgSec img {
+	width: 100%;
+	float: left;
+}
+.whyUSDivContent {
+	float: left;
+	width: 100%;
+	padding: 120px 0 0;
+}
+.whyUSInner {
+	width: 100%;
+	float: left;
+	padding-right: 80px;
+	text-align: right;
+	position: relative;
+	margin: 10px 0;
+	opacity: 0.5;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.whyUSInner:hover{
+	opacity: 1;
+}
+.roundImage {
+	position: absolute;
+	right: 0px;
+	top:10px;
+}
+.whyUSInner h5 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.whyUSInner p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px 0;
+	line-height: 25px;
+}
+.whyUSLeftAlign .whyUSInner {
+	text-align: left;
+	padding-left:80px;
+	padding-right:0px;
+}
+.whyUSLeftAlign .roundImage {
+	right: auto;
+	left: 0;
+}
+.findJob {
+	width:100%;
+	float: left;
+	position: relative;
+	overflow-x: hidden;
+	background-image: url(../images/find-job-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.halfBgDiv {
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+	float: left;
+	height: 100%;
+	left: -50%;
+	position: absolute;
+	width: 100%;
+}
+.findJobContent {
+	float: left;
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+}
+.findJobContent h2 {
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 20px;
+}
+.findJobContent p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 20px 0;
+	line-height: 25px;
+}
+.findJobContent form {
+	width: 100%;
+	float: left;
+}
+.findJobContent form input {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 5px 10px;
+	border-radius: 0px;
+	border: none;
+}
+.findJobContent .btn {
+	background: #dbc566 none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 0;
+	color: #000;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin: -4px 0 0;
+	padding: 5px 10px;
+	vertical-align: unset;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.footerDiv {
+	width: 100%;
+	float: left;
+	border-top: 30px solid #4e4e4e;
+	background: #262525;
+}
+.socialLinks {
+	float: left;
+	padding: 40px 10px;
+	width: 100%;
+	background: #312f2f;
+	text-align: center;
+	position: relative;
+}
+.divShadow {
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: -30px;
+	left: 20px;
+	transform: skew(-50deg);
+	height: 30px;
+	background: #646060;
+}
+.socialLinks p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #aba45f;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px 0 0;
+	line-height: 20px;
+}
+.socialLinks ul {
+	float: left;
+	width: 100%;
+	padding: 20px 0 0;
+}
+.socialLinks ul li {
+	display: inline-block;
+}
+.socialLinks ul li a {
+	float: left;
+	padding: 5px;
+	border: 1px solid #aba45f;
+	color: #aba45f;
+	border-radius: 50%;
+	margin: 1px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.socialLinks ul li a:hover {
+	background: #aba45f;
+	color: #fff;
+}
+.footerContent {
+	width: 100%;
+	padding: 40px 10px;
+	float: left;
+}
+.footerContent .recentPosts {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+	padding: 15px 0;
+	border-bottom: 1px solid #fff;
+	line-height: 25px;
+	opacity: 0.6;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.footerContent .recentPosts:hover {
+	opacity: 1;
+	border-bottom: 1px solid #aba45f;
+	color: #aba45f;
+}
+.footerContent p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+	padding: 15px 0;
+	border-bottom: 1px solid #fff;
+	line-height: 25px;
+}
+.footerDiv h2 {
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0 0 10px;
+}
+.footerForm p {
+	border: none;
+}
+.footerForm form {
+	width: 100%;
+	float: left;
+}
+.footerForm form input {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 5px 10px;
+	border-radius: 0px;
+	border: none;
+	margin: 0 0 20px;
+}
+.footerForm button {
+	width: 100%;
+	float: left;
+	background: #dbc566 none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 0;
+	color: #000;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin: -4px 0 0;
+	padding: 5px 10px;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.footerContent img {
+	height: auto;
+	opacity: 1;
+	width: 100%;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+.footerContent .thumb {
+	padding: 5px;
+}
+.footerContent .thumb:hover img{
+	opacity: 1;
+	transform: rotate(0deg) scale(1.01);
+}
+.footerCopyRight {
+	width: 100%;
+	float: left;
+	background: #444343;
+	padding: 10px 0;
+	text-align: center;
+}
+.footerCopyRight p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+}
+/*******/
+
+.page-banner {
+	background-image: url(../images/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.AboutPageContent {
+	text-align: center;
+	background-image: url(../images/about-content-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.borderLine {
+	width: 100%;
+	float: left;
+	border: 1px solid #000;
+	padding: 30px 20px;
+	margin: 30px 0 0;
+}
+.projectDetails {
+	background: #766f31;
+	float: left;
+	width: 100%;
+	padding: 30px 0 20px;
+	text-align: center;
+}
+.projectDetails h2 {
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 45px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0px;
+	line-height: 30px;
+}
+.projectDetails h2 span {
+	font-family: 'Open Sans', sans-serif;
+}
+.projectDetails h4 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 400;
+	padding:0 0 15px 0;
+	line-height: 25px;
+}
+a.borderLine {
+	text-align: center;
+}
+a.borderLine .fa {
+	font-size: 40px;
+	color: #5e5d5c;
+}
+a.borderLine span {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5d5c;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px 0 0;
+	line-height: 20px;
+}
+a.borderLine b {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5d5c;
+	font-size: 14px;
+	padding: 0px;
+	line-height: 20px;
+}
+.single .sliderDiv {
+	background-image: url(../images/slider-bg.jpg) !important;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.singlePage {
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+}
+.contactPageContent form {
+	width: 100%;
+	float: left;
+	padding: 30px 20px 0;
+}
+.singlePageImage {
+	width: 100%;
+	float: left;
+}
+.singlePageImage img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.singlePageImage .entry-content, .singlePageImage .entry-header, .singlePageImage .entry-footer {
+	width: 100%;
+	float: left;
+	padding: 15px 0 0;
+}
+.singlePageImage h1 {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 25px;
+	width: 100%;
+}
+.singlePageImage p {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	width: 100%;
+}
+.singlePage .widget {
+	float: left;
+	width: 100%;
+}
+.singlePage .widget ul {
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+}
+.singlePage .widget ul li {
+	float: left;
+	width: 100%;
+}
+.singlePage .widget ul li a {
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	float: left;
+	width: 100%;
+	padding: 5px;
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.singlePage .widget ul li a:hover {
+	color: #337ab7;
+}
+.contactPageContent {
+	text-align: center;
+	background-image: url(../images/contact-us-content-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.contactPageContent form textarea,  .contactPageContent form input {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 15px 10px;
+	border-radius: 0px;
+	margin: 0 0 20px;
+	height: auto;
+	background: transparent;
+	border: 1px solid #000;
+	box-shadow: none !important;
+}
+.contactPageContent input[type="submit"] {
+	float: left;
+	background: #6f6a3b none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 0;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	width: auto;
+	padding: 10px 50px;
+}
+.contactPageContent h4 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 20px;
+	font-weight: 400;
+	padding:20px;
+	text-align: left;
+	line-height: 25px;
+}
+.ourServiceContent {
+	width: 100%;
+	float: left;
+	overflow-x: hidden;
+}
+.ourServiceImg {
+	width: 100%;
+	float: left;
+}
+.ourServiceImg img {
+	float: right;
+}
+.pull-right .ourServiceImg img {
+	float: left;
+}
+.ourServiceContentInner {
+    padding: 0;
+    float: left;
+    width: 100%;
+    display: inline-flex;
+}
+.contentCenterDiv{
+    margin: auto;
+}
+.ourServiceContentInner h2 {
+	width: 100%;
+	float: left;
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.ourServiceContentInner h2 span {
+	color: #92892d;
+}
+.ourServiceContentInner p {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 15px;
+	font-weight: 400;
+	padding:10px 0;
+	text-align: left;
+	line-height: 25px;
+}
+.solarEnterprise.text-center {
+	background: transparent none repeat scroll 0 0;
+}
+.solarEnterprise.text-center p {
+	font-weight: 300;
+	color: #000;
+}
+.ourServiceContent ul {
+	list-style: none;
+	width: 100%;
+	float: left;
+}
+.ourServiceContent ul li {
+    color: #000;
+    float: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 37px;
+    padding: 0 0 0 20px;
+    width: 100%;
+    background-image: url(../images/list-style.png);
+    background-repeat: no-repeat;
+    background-position: left 11px;
+}
+.freeQuote {
+	background-image: url(../images/free-quout-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.freeQuoteContent {
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+	background-image: url(../images/free-quout-contact-bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.contactDiv {
+	float: left;
+	padding: 6px 0 10px 80px;
+	position: relative;
+	width: 100%;
+    opacity: 0.6;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.contactDivImg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.contactDiv a {
+    width: 100%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.contactDiv:hover{
+    opacity: 1;
+
+}
+.freeQuoteContent form {
+	float: left;
+	width: 100%;
+	padding: 50px 0 30px;
+}
+.freeQuoteContent form select,  .freeQuoteContent form input {
+	background: transparent none repeat scroll 0 0;
+	border: none;
+	border-bottom: 1px solid #000;
+	border-radius: 0;
+	color: #000;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	height: auto;
+	margin: 0 0 20px;
+	padding: 10px;
+	width: 100%;
+	box-shadow: none;
+	box-shadow: none !important;
+}
+.freeQuoteContent form textarea {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #000;
+	border-radius: 0;
+	color: #000;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	height: auto;
+	margin: 0 0 20px;
+	padding: 15px 10px;
+	width: 100%;
+	box-shadow: none !important;
+}
+.freeQuoteContent form input[type="submit"] {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #71680a;
+	border-radius: 0;
+	color: #000;
+	float: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	height: auto;
+	padding: 12px 30px;
+	width: auto;
+}
+.freeQuoteContent form input[type="submit"]:hover{
+    background:#71680a;
+    color: #fff;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.freeQuoteContent form h4 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 20px;
+	font-weight: 400;
+	padding:20px;
+	line-height: 25px;
+}
+form .wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+	display: none !important;
+}
+form span.wpcf7-not-valid-tip {
+	float: left;
+	font-size: 11px;
+	position: relative;
+	top: -15px;
+	width: 100%;
+	text-align: left;
+}
+.freeQuoteImageSection {
+	width: 100%;
+	float: left;
+}
+.freeQuoteImageSection img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.newsDiv {
+	background-image: url(../images/news-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.newsContent {
+	width: 100%;
+	float: left;
+}
+.newsContentInner {
+	width: 100%;
+	background: #9c9121;
+	float: left;
+	padding: 15px;
+}
+.newsContentInner h2 {
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 25px;
+}
+.newsContent img {
+	height: auto;
+	width: 100%;
+}
+.newsContentInner p {
+	color: #fff;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	min-height: 100px;
+	padding: 20px 0;
+	width: 100%;
+}
+.newsContentDiv {
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+}
+.newsContent button {
+	background: transparent;
+	border: 1px solid #a1a631;
+	color: #000;
+	float: right;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	height: auto;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border-radius: 0px;
+}
+.newsContentInner a.btn {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	height: auto;
+	padding: 10px 20px;
+	float: left;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.newsContentInner a.btn:hover{
+    border: 1px solid #1f3059;
+    background:#1f3059;
+}
+.getWork {
+	background-image: url(../images/get-work-bg.jpg);
+}
+.getWorkContent {
+	width: 100%;
+	float: left;
+}
+.getWorkContentInner {
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow-x: hidden;
+}
+.getWorkDis {
+	width: 100%;
+	position: absolute;
+	right: -50%;
+	transform: skew(20deg);
+	top: 30%;
+	background: #fff;
+}
+.getWorkDisInner {
+	width: 100%;
+	float: left;
+	transform: skew(-20deg);
+	padding: 30px;
+	text-align: center;
+}
+.getWorkDisInner p {
+	color: #000;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	width: 100%;
+}
+.getWorkDisInner button {
+	background: #575221 none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 20px 0 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.recentJobs .sjb-filters {
+	width: 100%;
+	float: left;
+	border: 0px solid #000;
+	padding: 15px;
+}
+.recentJobs h4 {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	width: 100%;
+	margin: 0 0 10px;
+}
+.recentJobs .sjb-filters form {
+	width: 100%;
+	float: left;
+}
+.recentJobs .sjb-filters form input {
+	width: 100%;
+	float: left;
+}
+.recentJobs .sjb-filters form input, .recentJobs .sjb-filters form select {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #000;
+	border-radius: 0;
+	color: #000;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	height: auto;
+	margin: 5px 0 10px;
+	padding: 10px 10px;
+	width: 100%;
+}
+.recentJobs .sjb-filters label {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	width: 100%;
+	min-height: 25px;
+}
+.recentJobs .sjb-filters .btn-search {
+	background: #655543 none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	float: left;
+	font-family: "FontAwesome";
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px 0 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.recentJobs .sjb-filters .btn-search:hover{
+    background: #1f3059;
+    border-color: #1f3059;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.job-description {
+	float: left;
+	width: 100%;
+}
+.recentJobs .sjb-listing {
+	width: 100%;
+	float: left;
+}
+.recentJobs .sjb-listing .list-view {
+	width: 100%;
+	float: left;
+}
+.recentJobs .sjb-listing .list-data .fa {
+	color: #000;
+	float: left;
+	font-size: 20px;
+	padding: 10px 0 5px 5px;
+	width: 100%;
+}
+.jobDetailsDiv .list-data .job-detail h3 {
+	float: left;
+	width: 100%;
+}
+.recentJobs {
+	float: left;
+	padding: 50px 0;
+	width: 100%;
+}
+.recentJobs h2 {
+	color: #393838;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px;
+	text-transform: uppercase;
+	width: 100%;
+}
+.recentJobs h2 span {
+	color: #92892d;
+}
+.job-location {
+	word-break: break-all;
+}
+.recentJobs .sjb-listing .list-data {
+	width: 100%;
+	float: left;
+	overflow-x: hidden;
+	position: relative;
+	background-color: #fcf2c8;
+	padding: 20px;
+	margin: 20px 0 0;
+	text-align: left;
+}
+.halfDivBg {
+	float: left;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	background: #000;
+	left: -85%;
+	transform: skew(20deg);
+	background: #827e4c;
+}
+.recentJobs .sjb-listing .list-data p {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	width: 100%;
+	min-height: 25px;
+	margin: 0 0 20px;
+	padding: 0 15px;
+}
+.recentJobs .sjb-listing .list-data h4 {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	width: 100%;
+	margin: 10px 0 10px;
+}
+.recentJobsImage {
+	width: 100%;
+	float: left;
+}
+.recentJobsImage img {
+	border-radius: 50%;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.dateSecton {
+	float: left;
+	border: 1px solid #000;
+	font-family: "Open Sans", sans-serif;
+	padding: 5px 20px;
+}
+.recentJobs .job-description .btn-primary {
+	background: #827e4c none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: none;
+	position: relative;
+    opacity: 0.7;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.recentJobs .job-description .btn-primary::after {
+    background: #fcf2c8 none repeat scroll 0 0;
+    border: 1px solid #827e4c;
+    content: ">";
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6.2px 10px;
+    position: absolute;
+    right: -30px;
+    color: #4b483c;
+    top: 0px;
+    opacity: 0.7;
+}
+.recentJobs .job-description .btn-primary:hover,
+.recentJobs .job-description .btn-primary:hover::after{
+    opacity: 1;
+}
+.allJobs {
+	background: transparent none repeat scroll 0 0;
+	border-radius: 0;
+	color: #000;
+	border: 1px solid;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 5px 20px;
+	margin: 30px 0;
+	text-transform: uppercase;
+}
+.btn-default:hover {
+	background-color: #1f3059;
+	border-color: #1f3059;
+	color: #fff;
+}
+.newsContent .wp-pagenavi {
+	float: left;
+	padding: 10px 13px 40px;
+	text-align: right;
+	width: 100%;
+}
+.newsContent .wp-pagenavi a, .newsContent .wp-pagenavi span {
+	border: 1px solid #bfbfbf;
+	margin: 2px;
+	padding: 10px 15px;
+	text-decoration: none;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.newsContent .wp-pagenavi span.current {
+	background: #1f3059;
+	color: #fff;
+}
+/*************************/
+
+
+
+.jobDetailsDiv {
+	float: left;
+	width: 100%;
+}
+.jobDetailsDiv .job-detail h3 span {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 25px;
+	width: 100%;
+}
+.jobDetailsDiv .job-description p {
+	color: #393838;
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	width: 100%;
+}
+.sjb-page .sliderContent h2 {
+	color: #fff;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 100%;
+}
+.sjb-page .btn-primary, .sjb-page .sjb-detail .jobpost-form .file div, .sjb-page .btn-primary:hover, .sjb-page .sjb-detail .jobpost-form .file:hover div {
+	background: #575221 none repeat scroll 0 0 !important;
+	border-radius: 0 !important;
+	color: #fff !important;
+	font-family: "Open Sans", sans-serif !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	padding: 5px 15px !important;
+	border-radius: 0px !important;
+	text-transform: uppercase !important;
+}
+.errorPage {
+	float: left;
+	padding: 50px 0;
+	width: 100%;
+}
+.errorPage ul {
+	float: left;
+	list-style: none;
+	width: 100%;
+	padding: 10px 0;
+}
+.errorPage li {
+	float: left;
+	width: 100%;
+    padding-left: 20px;
+    background-image: url(../images/list-style.png);
+    background-repeat: no-repeat;
+    background-position: left 11px;
+	line-height: 27px;
+}
+.errorPage a {
+	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0px;
+	font-family: "Open Sans", sans-serif;
+}
+.errorPage a:hover {
+	color: #827d4b;
+}
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+	float: left;
+	width: 100%;
+ text-align: :center;
+}
+.singlePageImage .entry-footer time {
+	padding: 0 5px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************\
+
+	  responsive starts here
+
+\*******************************/
+
+
+
+@media (min-width: 767px) {
+.paddingLeftZero {
+	padding-left:0px !important;
+}
+.paddingRightZero {
+	padding-right:0px !important;
+}
+}
+ @media (min-width: 992px) and (max-width: 1199px) {
+.whyUSDivContent {
+	padding: 30px 0 0;
+}
+.solarEnterprise img {
+	width: 100%;
+}
+.contactUl li a .fa {
+	font-size: 11px;
+	padding: 6px 2px 0 0;
+}	
+.contactUl li a span {
+	font-size: 10px;
+}
+.contactUl li {
+	padding: 8px 3px 0;
+}
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+.navigationDiv .navbar-nav > li > a {
+	padding: 5px;
+}
+.whyUSDivContent {
+	padding: 30px 0 0;
+}
+.solarEnterprise img {
+	width: 100%;
+}
+.offerIonDiv > img {
+	width: 100%;
+}
+.whyUSDivImgSec img {
+	padding: 150px 0 0;
+}
+.contactDiv {
+	padding: 6px 0 10px 70px;
+}
+.contactDiv a {
+	font-size: 14px;
+}
+.getWorkDis {
+	right: -35%;
+}
+}
+ @media only screen and (max-width: 767px) {
+.solarEnterprise button {
+	float: left;
+}
+.footerContent {
+	min-height: 320px;
+}
+.solarEnterprise img {
+	width: 100%;
+}
+.offerDetails {
+	padding: 30px 0 0;
+}
+.halfBgDiv {
+	left: 0;
+}
+.navigationDiv a.toggle {
+	display: block !important;
+	float: right;
+	height: 39px;
+	position: relative;
+	right: 14px;
+	top: -20px;
+	width: 39px;
+}
+#menu.mm-menu {
+	background: rgba(32, 49, 91, 1);
+}
+.mm-hasheader .dropdown-menu {
+	background: transparent none repeat scroll 0 0;
+	box-shadow: none;
+	left: 0;
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 2147483647;
+}
+.mbmenu .mm-listview .mm-next {
+	background: rgba(255, 255, 255, 0.7);
+}
+.mbmenu .menu-item .caret {
+	display: none;
+}
+.navbar-brand {
+	display: block !important;
+}
+.navbar-brand > img {
+	width: 60px;
+}
+#menu #bs-example-navbar-collapse-1 {
+	display: block;
+}
+.mm-menu .navbar-nav li a {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.solarEnterprise .col-sm-5 {
+	width: 100%;
+}
+.contactPageContent form {
+	padding: 30px 0px 0;
+}
+.contactPageContent h4 {
+	font-size: 16px;
+	padding: 20px 0;
+}
+.ourServiceImg img {
+	width: 100%;
+}
+.contactDiv {
+	margin: 10px 0 0;
+}
+.halfDivBg {
+	display: none;
+}
+.recentJobs .sjb-listing .list-data {
+	text-align: center;
+}
+.recentJobs .sjb-listing .list-data button, .recentJobs .sjb-listing .list-data span {
+	float: none;
+	display: inline;
+	margin: 0 2px 0 0;
+}
+.getWorkDis {
+	right: 0px;
+	top: 0px;
+	transform: skew(0deg);
+}
+.getWorkDisInner {
+	transform: skew(0deg);
+	text-align: justify;
+	padding: 0 0px;
+}
+.recentJobs .sjb-listing .list-data p {
+	text-align: justify;
+}
+.getWorkDisInner button {
+	margin: 20px 0;
+}
+.getWorkContentInner .getWorkDis .col-md-6.col-sm-8 {
+	padding: 0px;
+}
+.weOffers h2 {
+	text-align: left;
+}
+.offerDetails .col-xs-4{
+	padding: 0px;
+}
+.contactUl li span {
+	display: none;
+}
+.smaller .navigationDiv .navbar-brand {
+	height: 70px;
+	padding: 6px 6px;
+}
+.smaller .navigationDiv a.toggle {
+	top: -50px;
+}
+}
+ @media (max-width: 500px) {
+.topBar ul.socialIcons {
+	width: 100%;
+	float: left;
+}
+
+.sliderContent h2 {
+	font-size: 30px;
+}
+.sliderDiv {
+	padding: 120px 0 80px;
+}
+.solarEnterprise h2, .weOffers h2 {
+	font-size: 22px;
+}
+.solarEnterprise h4, .weOffers h4 {
+	font-size: 15px;
+}
+.solarEnterprise p {
+	font-size: 13px;
+}
+.offerDetails .col-xs-4,  .offerDetails .col-xs-8 {
+	width: 100%;
+	float: left;
+}
+.offerIonDiv {
+	margin: 0 0 10px;
+}
+.whyUSDiv h2 {
+	font-size: 25px;
+	margin: 0px;
+}
+.whyUSDivContent {
+	padding: 20px 0 0;
+}
+.footerDiv .col-sm-3.col-xs-6 {
+	width: 100%;
+}
+.footerContent {
+	min-height: 10px;
+}
+.divShadow {
+	left: 6px;
+	transform: skew(-22deg);
+}
+.navigationDiv {
+	padding: 20px 0 0;
+}
+.borderLine, .solarEnterprise p, .weOffers h4, .offerContentDiv p {
+	text-align: justify;
+}
+.borderLine p {
+	padding: 0px;
+}
+.page-banner h2,  .contactPage h2 {
+	padding: 40px 0 0;
+}
+.solarEnterprise {
+	padding: 20px 0;
+}
+.getWorkDisInner p, .recentJobs .sjb-listing .list-data p {
+	font-size: 13px;
+}
+.offerContentDiv p {
+	font-size: 13px;
+}
+.projectDetails {
+	margin: 15px 0 0;
+}
+.footerContent {
+	padding: 20px 10px;
+}
+.ourServiceContentInner h2 {
+	font-size: 22px;
+}
+}
